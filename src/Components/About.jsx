@@ -1,5 +1,5 @@
 import React from "react";
-import PerfilCV from "../assets/PerfilCV.svg";
+
 
 export default function About() {
     return (
@@ -33,7 +33,7 @@ export default function About() {
             <img
               className="object-cover object-center "
               alt="Perfil"
-              src={PerfilCV}
+              src="/images/PerfilCV.svg"
             />
           </div>
         </div>
