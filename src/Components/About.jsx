@@ -33,7 +33,7 @@ export default function About() {
             <img
               className="object-cover object-center "
               alt="Perfil"
-              src="/images/PerfilCV.svg"
+              src="images/PerfilCV.svg"
             />
           </div>
         </div>
