@@ -7,16 +7,7 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    const formData = new FormData(e.target);
-
-    fetch("https://portafoliofrrz.netlify.app/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
-      mode: "no-cors"
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+    alert("Message sent!");
   }
 
   return (
@@ -70,7 +61,7 @@ export default function Contact() {
             ¡Contáctame!
           </h2>
           <p className="leading-relaxed mb-5">
-            Los correos serán contestados en el horario de 8:00am a 5:00pm de
+            Los correos serán contestados en el horario de 8:00 am a 5:00 pm de
             lunes a viernes, para su mayor comodidad
           </p>
           <div className="relative mb-4">
@@ -122,6 +113,7 @@ export default function Contact() {
     </section>
   );
 }
+
 
 
 
